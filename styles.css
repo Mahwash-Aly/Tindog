@@ -1,0 +1,175 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 3.5rem;
+}
+.head3{
+  font-family: "Montserrat-Bold";
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* First image styles */
+
+
+
+.heading1 {
+  display: inline-block;
+  width: 50%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 3.5rem;
+  color: white;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: "Montserrat-light";
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+/* Buttons */
+.download-button{
+  margin: 5% 3% 5% 0%
+}
+/* Animation */
+.animation{
+  color: #ef8172;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.animation:hover {
+  color: #ff4c68;
+}
+
+/* image of dog */
+.dog1 {
+  width: 300px;
+  height: auto;
+  margin-left:100px;
+  transform: rotate(25deg);
+  position:absolute;
+  margin-right: 10px;
+}
+/* Features Section */
+
+.feature{
+  text-align:center;
+  padding: 4.5%;
+}
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.para{
+  color:#8f8f8f;
+  width: 80%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-right: 1px;
+}
+
+
+/* Testimonial Section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.mediaa{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Buttons */
+
+.btnw{
+  width: 100%;
+}
+/* Pricing Section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1024px){
+  #title{
+    text-align: center;
+  }
+  .dog1{
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+.ctaa{
+  padding: 10px 200px 10px 200px;
+}
+#footer{
+  text-align: center;
+  padding: 100px;
+}
+.icons{
+  padding: 0px 10px;
+}
